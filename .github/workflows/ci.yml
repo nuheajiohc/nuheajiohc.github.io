@@ -29,5 +29,10 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Set git config
+        run: |
+          git config --global user.email "jaehun341012@gmail.com"
+          git config --global user.name "jaehun"
+
       - name: Deploy To Github Pages
         run: npm run deploy-gh
