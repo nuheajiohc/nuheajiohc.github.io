@@ -1,6 +1,6 @@
 module.exports = {
-  title: "MY BLOG",
-  description: "Hello this is my blog",
+  title: "nuheajiohc.blog",
+  description: "학습 기록 공간",
   author: "nuheajiohc",
   siteUrl: "https://nuheajiohc.github.io/",
   links: {
@@ -9,7 +9,7 @@ module.exports = {
 ,
 //   See https://giscus.app/
   giscus: {
-    repo: "unheajiohc/nuheajiohc.github.io",
+    repo: "nuheajiohc/nuheajiohc.github.io",
     repoId: "MDEwOlJlcG9zaXRvcnkzNjk4NjMzNTg=",
     category: "Comments",
     categoryId: "DIC_kwDOFguqvs4ChwGy",
