@@ -71,7 +71,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy-gh": "gatsby build && gh-pages -d public --repo https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/nuheajiohc/nuheajiohc.github.io.git",
+    "deploy-gh": "gatsby build && gh-pages -d public --repo https://${GITHUB_ACTOR}:${ACCESS_TOKEN}@github.com/nuheajiohc/nuheajiohc.github.io.git",
     "deploy-gh-prefix-paths": "gatsby build --prefix-paths && gh-pages -d public",
     "check:lint": "eslint . --ext .js,.jsx",
     "fix:lint": "eslint . --fix --ext .js,.jsx",
