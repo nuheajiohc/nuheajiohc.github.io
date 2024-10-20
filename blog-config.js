@@ -9,9 +9,9 @@ module.exports = {
   //   See https://giscus.app/
   giscus: {
     repo: "nuheajiohc/nuheajiohc.github.io",
-    repoId: "MDEwOlJlcG9zaXRvcnkzNjk4NjMzNTg=",
+    repoId: "R_kgDONC8ycg",
     category: "Comments",
-    categoryId: "DIC_kwDOFguqvs4ChwGy",
+    categoryId: "DIC_kwDONC8ycs4Cjh6s",
     mapping: "pathname",
     strict: "0",
     reactionsEnabled: "1",
