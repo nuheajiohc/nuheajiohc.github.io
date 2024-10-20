@@ -35,4 +35,8 @@ jobs:
           git config --global user.name "jaehun"
 
       - name: Deploy To Github Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy To Github Pages
         run: npm run deploy-gh
