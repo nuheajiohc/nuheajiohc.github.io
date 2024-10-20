@@ -29,12 +29,12 @@ jobs:
       - name: Build
         run: yarn build
 
-      # - name: Set git config
-      #   run: |
-      #     git config --global user.email "jaehun341012@gmail.com"
-      #     git config --global user.name "jaehun"
+      - name: Set git config
+        run: |
+          git config --global user.email "jaehun341012@gmail.com"
+          git config --global user.name "jaehun"
 
-      # - name: Deploy To Github Pages
-      #   env:
-      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      #   run: npm run deploy-gh
+      - name: Deploy To Github Pages
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: npm run deploy-gh
