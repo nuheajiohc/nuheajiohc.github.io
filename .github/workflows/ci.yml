@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
           node-version: 20.3.1
 
@@ -28,11 +28,6 @@ jobs:
       
       - name: Build
         run: yarn build
-
-      - name: Set git config
-        run: |
-          git config --global user.email "jaehun341012@gmail.com"
-          git config --global user.name "jaehun"
 
       - name: Deploy To Github Pages
         run: npm run deploy-gh
