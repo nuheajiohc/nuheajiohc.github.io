@@ -1,5 +1,5 @@
 module.exports = {
-  title: "nuheajiohc.blog",
+  title: "nuheajiohc.log",
   description: "학습 기록 공간",
   author: "nuheajiohc",
   siteUrl: "https://nuheajiohc.github.io/",
