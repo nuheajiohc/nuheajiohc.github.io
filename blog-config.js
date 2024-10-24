@@ -6,7 +6,8 @@ module.exports = {
   links: {
     github: "https://github.com/nuheajiohc",
   },
-  //   See https://giscus.app/
+  useAbout: false,
+  // See https://giscus.app/
   giscus: {
     repo: "nuheajiohc/nuheajiohc.github.io",
     repoId: "R_kgDONC8ycg",
